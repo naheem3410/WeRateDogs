@@ -29,30 +29,48 @@ I visually assessed the data by displaying the whole dataframe in my Jupyter lab
 I programmatically assessed the data using the various Pandas methods available. Some of the methods I used are:
 
 head()
+
 info()
+
 describe()
+
 value_counts()
+
 contains()
+
 After the end of the assessment, I detected some quality and tidiness related issues
 
 ## Quality Issues detected
 ### twitter_archive_enhanced_df
 source column is a combination of the platform used and a link
+
 timestamp column datatype is object (string)
+
 retweeted_status_timestamp datatype is object (string)
+
 some tweets are replies
+
 some tweet are quote tweets
+
 some tweets are re-tweets
+
 some tweets have wrong ratings
+
 name column has values that are not possible
+
 stage of dog in some tweets is incorrect
+
 ## Tidiness Issues detected
 ### Tweet image prediction dataframe
 some of the columns names are not self-explanatory
-Twitter archive enhanced dataframe
+
+### Twitter archive enhanced dataframe
 the different dog stages (doggo, floofer, pupper, puppo) have different column names for each stage
+
 column for combined rating is absent
+
 dataframe lacks additional information about each tweet
+
 information about the predictions associated with each tweet is missing
 ## Cleaning Data
 After assessing the data for quality and tidiness issues, I cleaned the data by correcting the issues identified using the define, code and test framework. Note: I made a copy of the dataframes before cleaning
