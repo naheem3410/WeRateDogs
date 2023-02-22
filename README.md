@@ -17,9 +17,9 @@ I obtained the additional information associated with each tweet using the file 
 ## Assessing Data
 After the data gathering stage was completed, I assessed three dataframes produced during the data gathering stage:
 
-### twitter_archive_enhanced_df - Twitter archive enhanced dataframe
-tweet_image_prediction_df - Tweet image prediction dataframe
-tweet_add_df - Tweet additional data dataframe
+#### twitter_archive_enhanced_df - Twitter archive enhanced dataframe
+#### tweet_image_prediction_df - Tweet image prediction dataframe
+#### tweet_add_df - Tweet additional data dataframe
 I implemented both visual and programmatic assessments during the process of assessing the data
 
 ## Visual Assessments
