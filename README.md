@@ -1,6 +1,5 @@
 ## Introduction
-Wrangling is a process that covers the steps of gathering data, assessing the data for quality and tidiness isuue, and cleaning the data. This project is about the process
-of wrangling data. The project makes use of the data from WeRateDogs Twitter account.
+Wrangling is a process that covers the steps of gathering data, assessing the data for quality and tidiness issues, and cleaning the data. This project is about the process of wrangling data. The project makes use of the data from WeRateDogs' Twitter account.
 
 WeRateDogs (@dog_rates) is a Twitter account that gives ratings to people's dogs along with a lighthearted comment. The denominator of these scores is almost always 10. however, the numerators? frequently more than 10. 13/10, 14/10, 15/10,etc. Over 4 million people follow WeRateDogs, and it has been featured in international media.
 I will be using three datasets to achieve this objective. The datasets are:
